@@ -1,0 +1,20 @@
+#Uso de funciones
+#Calcular la edad de una persona teniendo el año de nacimiento 
+#Decir si mayor o menor de edad
+
+def calcEdad(añoNac):
+    return 2024 - añoNac
+
+
+def evalEdad(edad):
+    if edad >= 18:
+        return "Mayor de edad"
+    else:
+        return "Menor de edad"
+    
+def main():
+    añoNac = eval(input("En que año naciste:"))
+    print("Tu edad es", calcEdad(añoNac), " Tu eres", evalEdad(calcEdad(añoNac)))
+
+main()
+           

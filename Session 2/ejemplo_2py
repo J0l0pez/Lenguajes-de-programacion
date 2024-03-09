@@ -1,0 +1,8 @@
+print("Bienvenido")
+print("Dime tu nombre")
+name = input( floa)
+print("Hola", name)
+print("Dime la cantidad en Córdoba")
+cant_córdoba = float(input())
+print("Cantidad en C$:" , cant_córdoba)
+print("Cantidad en U$:" , cant_córdoba/36.6)
